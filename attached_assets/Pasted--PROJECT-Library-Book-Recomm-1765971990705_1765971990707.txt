@@ -1,0 +1,185 @@
+/********************************************************************
+ PROJECT: Library Book Recommendation System
+ PURPOSE: Data Structures & Algorithms Assignment
+ BUILDER: Replit Agent 3
+********************************************************************/
+
+/*==============================================================
+ ROLE DEFINITION
+==============================================================*/
+ROLE:
+- You are an expert Full-Stack Developer
+- You are a Data Structures & Algorithms specialist
+- You are a Modern UI/UX designer
+
+GOAL:
+- Build a COMPLETE, WORKING application
+- Data structure must be ESSENTIAL to logic
+- Must satisfy college DSA assignment requirements
+- UI must be modern, animated, and professional
+
+/*==============================================================
+ CORE CONCEPT
+==============================================================*/
+PROJECT_NAME = "Library Book Recommendation System"
+
+CORE_IDEA:
+- Books are represented as GRAPH NODES
+- Relationships between books are GRAPH EDGES
+- Recommendations are generated via GRAPH TRAVERSAL
+- This is NOT a simple CRUD project
+
+/*==============================================================
+ DATA STRUCTURE REQUIREMENTS
+==============================================================*/
+PRIMARY_DATA_STRUCTURE:
+- Graph (Adjacency List)
+
+GRAPH_DETAILS:
+- Node  -> Book
+- Edge  -> Relationship between books
+- Edge Weight -> Relationship strength
+
+RELATIONSHIP_TYPES:
+- Same Genre
+- Same Author
+- Similar Keywords
+- Borrowed Together (simulated data)
+
+/*==============================================================
+ ALGORITHMS
+==============================================================*/
+TRAVERSAL_ALGORITHM:
+- Breadth First Search (BFS)
+- Depth limit = 2
+
+RECOMMENDATION_LOGIC:
+- Traverse graph starting from searched book
+- Score related books based on:
+    + Genre match
+    + Author match
+    + Borrow frequency
+- Rank books using Priority Queue (Max Heap)
+
+/*==============================================================
+ SUPPORTING DATA STRUCTURES
+==============================================================*/
+SUPPORTING_DS:
+- HashMap -> BookID → Book (O(1) lookup)
+- Priority Queue -> Rank recommendations
+- Stack (optional) -> Recently viewed books
+- Queue (optional) -> Reading list
+
+/*==============================================================
+ FUNCTIONAL REQUIREMENTS
+==============================================================*/
+FEATURES:
+1. Add new book
+2. Delete book
+3. View all books
+4. Search book
+5. Recommend top 5 related books
+
+BOOK_ATTRIBUTES:
+- Book ID
+- Title
+- Author
+- Genre
+- Keywords
+
+/*==============================================================
+ APPLICATION WORKFLOW
+==============================================================*/
+WORKFLOW:
+1. Load books into Graph
+2. Create relationships (edges)
+3. User searches a book
+4. Find book via HashMap
+5. Run BFS traversal
+6. Calculate recommendation score
+7. Rank using Priority Queue
+8. Display recommendations
+
+/*==============================================================
+ UI / UX REQUIREMENTS
+==============================================================*/
+FRONTEND_STACK:
+- React
+- Tailwind CSS
+- Framer Motion (animations)
+- Lucide-react (icons)
+
+UI_EXPECTATIONS:
+- Modern design
+- Rounded cards
+- Soft shadows
+- Smooth transitions
+- Hover animations
+- Animated recommendation list
+- Loading animation
+- Responsive layout
+
+PAGES:
+- Home Page
+- Search Book Page
+- Recommendation Page
+- Add Book Page
+
+COMPONENTS:
+- BookCard
+- RecommendationCard
+
+/*==============================================================
+ PROJECT STRUCTURE (MANDATORY)
+==============================================================*/
+FOLDER_STRUCTURE:
+src/
+ ├── models/
+ │    └── Book.js
+ ├── datastructures/
+ │    ├── Graph.js
+ │    └── PriorityQueue.js
+ ├── services/
+ │    └── RecommendationEngine.js
+ ├── components/
+ │    ├── BookCard.jsx
+ │    └── RecommendationCard.jsx
+ ├── pages/
+ │    ├── Home.jsx
+ │    ├── Search.jsx
+ │    └── AddBook.jsx
+ ├── App.jsx
+ └── main.jsx
+
+/*==============================================================
+ DOCUMENTATION REQUIREMENTS
+==============================================================*/
+DOCUMENTATION:
+- Inline comments explaining:
+  - Why Graph is used
+  - BFS traversal logic
+  - Time complexity of operations
+- Code must be modular and readable
+- Suitable for viva explanation
+
+/*==============================================================
+ SAMPLE DATA
+==============================================================*/
+INITIAL_DATA:
+- Preload minimum 10 books
+- Ensure relationships exist
+- Recommendations must work immediately
+
+/*==============================================================
+ FINAL CONSTRAINTS
+==============================================================*/
+CONSTRAINTS:
+- No runtime errors
+- Graph must be ESSENTIAL
+- Recommendations must be meaningful
+- UI must be visually impressive
+- Project must be DSA-evaluation ready
+
+/********************************************************************
+ END OF PROMPT
+********************************************************************/
