@@ -412,6 +412,218 @@ const INITIAL_BOOKS: InsertBook[] = [
     genre: "Epic",
     keywords: ["journey", "hero", "mythology"],
     description: "An epic journey back home."
+  },
+  {
+    title: "Clean Code",
+    author: "Robert C. Martin",
+    genre: "Programming",
+    keywords: ["clean code", "software engineering", "best practices"],
+    description: "A handbook of agile software craftsmanship."
+  },
+  {
+    title: "Introduction to Algorithms",
+    author: "Thomas H. Cormen",
+    genre: "Computer Science",
+    keywords: ["algorithms", "data structures", "complexity"],
+    description: "A comprehensive guide to algorithms."
+  },
+  {
+    title: "Design Patterns",
+    author: "Erich Gamma",
+    genre: "Software Engineering",
+    keywords: ["design patterns", "oop", "architecture"],
+    description: "Reusable solutions to common software design problems."
+  },
+  {
+    title: "Cracking the Coding Interview",
+    author: "Gayle Laakmann McDowell",
+    genre: "Career",
+    keywords: ["interview", "coding", "DSA"],
+    description: "Preparation guide for coding interviews."
+  },
+  {
+    title: "You Don't Know JS",
+    author: "Kyle Simpson",
+    genre: "Programming",
+    keywords: ["javascript", "web development"],
+    description: "Deep dive into JavaScript concepts."
+  },
+  {
+    title: "Eloquent JavaScript",
+    author: "Marijn Haverbeke",
+    genre: "Programming",
+    keywords: ["javascript", "coding", "logic"],
+    description: "A modern introduction to programming."
+  },
+  {
+    title: "Operating System Concepts",
+    author: "Abraham Silberschatz",
+    genre: "Computer Science",
+    keywords: ["os", "process", "memory"],
+    description: "Fundamentals of operating systems."
+  },
+  {
+    title: "Computer Networks",
+    author: "Andrew S. Tanenbaum",
+    genre: "Computer Science",
+    keywords: ["networking", "protocols", "internet"],
+    description: "Detailed concepts of computer networking."
+  },
+  {
+    title: "Database System Concepts",
+    author: "Henry F. Korth",
+    genre: "Computer Science",
+    keywords: ["dbms", "sql", "transactions"],
+    description: "Core database management concepts."
+  },
+  {
+    title: "The Pragmatic Programmer",
+    author: "Andrew Hunt",
+    genre: "Programming",
+    keywords: ["coding", "career", "best practices"],
+    description: "Practical advice for software developers."
+  },
+
+  {
+    title: "Rework",
+    author: "Jason Fried",
+    genre: "Business",
+    keywords: ["startup", "business", "simplicity"],
+    description: "A fresh approach to running a business."
+  },
+  {
+    title: "Hooked",
+    author: "Nir Eyal",
+    genre: "Product Design",
+    keywords: ["psychology", "habits", "products"],
+    description: "How habit-forming products are built."
+  },
+  {
+    title: "The Millionaire Fastlane",
+    author: "MJ DeMarco",
+    genre: "Finance",
+    keywords: ["wealth", "entrepreneurship"],
+    description: "An alternative approach to wealth creation."
+  },
+  {
+    title: "Can't Hurt Me",
+    author: "David Goggins",
+    genre: "Motivation",
+    keywords: ["discipline", "mental toughness"],
+    description: "Master your mind and defy the odds."
+  },
+  {
+    title: "Make Your Bed",
+    author: "William H. McRaven",
+    genre: "Self-Help",
+    keywords: ["discipline", "life lessons"],
+    description: "Small habits that change your life."
+  },
+  {
+    title: "Do Epic Shit",
+    author: "Ankur Warikoo",
+    genre: "Self-Help",
+    keywords: ["growth", "mindset", "success"],
+    description: "Unfiltered lessons on success and failure."
+  },
+  {
+    title: "Wings of Fire",
+    author: "A.P.J. Abdul Kalam",
+    genre: "Autobiography",
+    keywords: ["inspiration", "science", "india"],
+    description: "The life journey of India's Missile Man."
+  },
+  {
+    title: "India 2020",
+    author: "A.P.J. Abdul Kalam",
+    genre: "Visionary",
+    keywords: ["development", "india", "future"],
+    description: "A vision for India's future growth."
+  },
+  {
+    title: "The Monk Who Sold His Ferrari",
+    author: "Robin Sharma",
+    genre: "Spiritual Fiction",
+    keywords: ["life balance", "purpose"],
+    description: "A fable about fulfilling your dreams."
+  },
+  {
+    title: "Who Moved My Cheese?",
+    author: "Spencer Johnson",
+    genre: "Motivation",
+    keywords: ["change", "adaptability"],
+    description: "A simple story about dealing with change."
+  },
+
+  {
+    title: "The Midnight Library",
+    author: "Matt Haig",
+    genre: "Fiction",
+    keywords: ["choices", "life", "regret"],
+    description: "Exploring infinite versions of one life."
+  },
+  {
+    title: "Kafka on the Shore",
+    author: "Haruki Murakami",
+    genre: "Magical Realism",
+    keywords: ["surreal", "destiny"],
+    description: "A mysterious and metaphysical journey."
+  },
+  {
+    title: "Norwegian Wood",
+    author: "Haruki Murakami",
+    genre: "Romance",
+    keywords: ["love", "loss"],
+    description: "A nostalgic story of love and memory."
+  },
+  {
+    title: "The Road",
+    author: "Cormac McCarthy",
+    genre: "Post-Apocalyptic",
+    keywords: ["survival", "hope"],
+    description: "A father and son journey through ruin."
+  },
+  {
+    title: "Brave New World",
+    author: "Aldous Huxley",
+    genre: "Dystopian",
+    keywords: ["technology", "control"],
+    description: "A futuristic society driven by pleasure."
+  },
+  {
+    title: "Fahrenheit 451",
+    author: "Ray Bradbury",
+    genre: "Dystopian",
+    keywords: ["censorship", "books"],
+    description: "A world where books are banned."
+  },
+  {
+    title: "The Silent Patient",
+    author: "Alex Michaelides",
+    genre: "Thriller",
+    keywords: ["psychology", "mystery"],
+    description: "A shocking psychological thriller."
+  },
+  {
+    title: "Gone Girl",
+    author: "Gillian Flynn",
+    genre: "Thriller",
+    keywords: ["crime", "marriage"],
+    description: "A dark mystery of a missing wife."
+  },
+  {
+    title: "The Girl with the Dragon Tattoo",
+    author: "Stieg Larsson",
+    genre: "Crime",
+    keywords: ["investigation", "thriller"],
+    description: "A gripping crime investigation."
+  },
+  {
+    title: "The Shining",
+    author: "Stephen King",
+    genre: "Horror",
+    keywords: ["psychological", "isolation"],
+    description: "A chilling story of madness and fear."
   }
 ];
 
