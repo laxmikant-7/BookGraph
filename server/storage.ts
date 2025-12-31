@@ -624,6 +624,289 @@ const INITIAL_BOOKS: InsertBook[] = [
     genre: "Horror",
     keywords: ["psychological", "isolation"],
     description: "A chilling story of madness and fear."
+  },
+  {
+    title: "The Little Prince",
+    author: "Antoine de Saint-Exupéry",
+    genre: "Fable",
+    keywords: ["life", "innocence", "wisdom"],
+    description: "A poetic tale about life, love, and human nature."
+  },
+  {
+    title: "A Brief History of Time",
+    author: "Stephen Hawking",
+    genre: "Science",
+    keywords: ["cosmology", "universe", "physics"],
+    description: "An overview of modern cosmology."
+  },
+  {
+    title: "Cosmos",
+    author: "Carl Sagan",
+    genre: "Science",
+    keywords: ["space", "astronomy", "science"],
+    description: "A journey through the universe and science."
+  },
+  {
+    title: "The Theory of Everything",
+    author: "Stephen Hawking",
+    genre: "Science",
+    keywords: ["physics", "time", "universe"],
+    description: "Explains the origin and fate of the universe."
+  },
+  {
+    title: "Thinking, Fast and Slow",
+    author: "Daniel Kahneman",
+    genre: "Psychology",
+    keywords: ["decision making", "bias", "thinking"],
+    description: "How humans think and make decisions."
+  },
+  {
+    title: "Drive",
+    author: "Daniel H. Pink",
+    genre: "Motivation",
+    keywords: ["motivation", "psychology", "work"],
+    description: "The science behind motivation."
+  },
+  {
+    title: "Outliers",
+    author: "Malcolm Gladwell",
+    genre: "Non-Fiction",
+    keywords: ["success", "opportunity", "culture"],
+    description: "What makes high achievers different."
+  },
+  {
+    title: "Blink",
+    author: "Malcolm Gladwell",
+    genre: "Psychology",
+    keywords: ["intuition", "thinking"],
+    description: "The power of thinking without thinking."
+  },
+  {
+    title: "The Tipping Point",
+    author: "Malcolm Gladwell",
+    genre: "Sociology",
+    keywords: ["trends", "society"],
+    description: "How ideas spread like epidemics."
+  },
+  {
+    title: "The Power of Habit",
+    author: "Charles Duhigg",
+    genre: "Self-Help",
+    keywords: ["habits", "behavior"],
+    description: "Why habits exist and how to change them."
+  },
+
+  {
+    title: "Steve Jobs",
+    author: "Walter Isaacson",
+    genre: "Biography",
+    keywords: ["innovation", "apple", "leadership"],
+    description: "The life of Apple’s co-founder."
+  },
+  {
+    title: "Elon Musk",
+    author: "Ashlee Vance",
+    genre: "Biography",
+    keywords: ["entrepreneurship", "technology"],
+    description: "The story of a modern tech visionary."
+  },
+  {
+    title: "Becoming",
+    author: "Michelle Obama",
+    genre: "Autobiography",
+    keywords: ["inspiration", "leadership"],
+    description: "A deeply personal memoir."
+  },
+  {
+    title: "Educated",
+    author: "Tara Westover",
+    genre: "Memoir",
+    keywords: ["education", "resilience"],
+    description: "A journey from survival to education."
+  },
+  {
+    title: "Into the Wild",
+    author: "Jon Krakauer",
+    genre: "Adventure",
+    keywords: ["freedom", "nature"],
+    description: "A true story of survival and idealism."
+  },
+  {
+    title: "The Call of the Wild",
+    author: "Jack London",
+    genre: "Adventure",
+    keywords: ["nature", "survival"],
+    description: "A dog’s journey into the wild."
+  },
+  {
+    title: "Moby-Dick",
+    author: "Herman Melville",
+    genre: "Classic",
+    keywords: ["obsession", "sea"],
+    description: "A captain’s obsession with a white whale."
+  },
+  {
+    title: "The Old Man and the Sea",
+    author: "Ernest Hemingway",
+    genre: "Classic",
+    keywords: ["perseverance", "nature"],
+    description: "A fisherman’s struggle against fate."
+  },
+  {
+    title: "Crime and Punishment",
+    author: "Fyodor Dostoevsky",
+    genre: "Philosophical Fiction",
+    keywords: ["guilt", "morality"],
+    description: "A psychological exploration of crime."
+  },
+  {
+    title: "The Brothers Karamazov",
+    author: "Fyodor Dostoevsky",
+    genre: "Classic",
+    keywords: ["faith", "family"],
+    description: "A deep philosophical family drama."
+  },
+
+  {
+    title: "The Stranger",
+    author: "Albert Camus",
+    genre: "Philosophy",
+    keywords: ["absurdism", "existence"],
+    description: "A story exploring the absurd nature of life."
+  },
+  {
+    title: "Thus Spoke Zarathustra",
+    author: "Friedrich Nietzsche",
+    genre: "Philosophy",
+    keywords: ["existence", "values"],
+    description: "A philosophical exploration of human values."
+  },
+  {
+    title: "The Republic",
+    author: "Plato",
+    genre: "Philosophy",
+    keywords: ["justice", "state"],
+    description: "A foundational work of political philosophy."
+  },
+  {
+    title: "Letters from a Stoic",
+    author: "Seneca",
+    genre: "Philosophy",
+    keywords: ["stoicism", "life"],
+    description: "Wisdom on living a virtuous life."
+  },
+  {
+    title: "Siddhartha",
+    author: "Hermann Hesse",
+    genre: "Spiritual Fiction",
+    keywords: ["enlightenment", "journey"],
+    description: "A man’s search for spiritual fulfillment."
+  },
+  {
+    title: "The Ramayana",
+    author: "Valmiki",
+    genre: "Epic",
+    keywords: ["dharma", "devotion"],
+    description: "An ancient Indian epic."
+  },
+  {
+    title: "The Mahabharata",
+    author: "Vyasa",
+    genre: "Epic",
+    keywords: ["duty", "war"],
+    description: "A grand epic of duty and destiny."
+  },
+  {
+    title: "Chanakya Neeti",
+    author: "Chanakya",
+    genre: "Strategy",
+    keywords: ["politics", "wisdom"],
+    description: "Ancient Indian political wisdom."
+  },
+  {
+    title: "The Discovery of India",
+    author: "Jawaharlal Nehru",
+    genre: "History",
+    keywords: ["india", "culture"],
+    description: "India’s history through a personal lens."
+  },
+  {
+    title: "Ignited Minds",
+    author: "A.P.J. Abdul Kalam",
+    genre: "Inspiration",
+    keywords: ["youth", "dreams"],
+    description: "Inspiring thoughts for young minds."
+  },
+
+  {
+    title: "The Martian",
+    author: "Andy Weir",
+    genre: "Science Fiction",
+    keywords: ["space", "survival"],
+    description: "An astronaut stranded on Mars."
+  },
+  {
+    title: "Ready Player One",
+    author: "Ernest Cline",
+    genre: "Sci-Fi",
+    keywords: ["virtual reality", "gaming"],
+    description: "A futuristic virtual adventure."
+  },
+  {
+    title: "Foundation",
+    author: "Isaac Asimov",
+    genre: "Science Fiction",
+    keywords: ["future", "civilization"],
+    description: "The fall and rise of civilizations."
+  },
+  {
+    title: "I, Robot",
+    author: "Isaac Asimov",
+    genre: "Science Fiction",
+    keywords: ["robots", "AI"],
+    description: "Stories about robots and ethics."
+  },
+  {
+    title: "Neuromancer",
+    author: "William Gibson",
+    genre: "Cyberpunk",
+    keywords: ["hacking", "AI"],
+    description: "A foundational cyberpunk novel."
+  },
+  {
+    title: "Snow Crash",
+    author: "Neal Stephenson",
+    genre: "Cyberpunk",
+    keywords: ["metaverse", "technology"],
+    description: "A fast-paced futuristic thriller."
+  },
+  {
+    title: "The Hitchhiker’s Guide to the Galaxy",
+    author: "Douglas Adams",
+    genre: "Sci-Fi Comedy",
+    keywords: ["humor", "space"],
+    description: "A hilarious journey through space."
+  },
+  {
+    title: "The Name of the Wind",
+    author: "Patrick Rothfuss",
+    genre: "Fantasy",
+    keywords: ["magic", "hero"],
+    description: "The tale of a gifted young magician."
+  },
+  {
+    title: "Mistborn",
+    author: "Brandon Sanderson",
+    genre: "Fantasy",
+    keywords: ["magic system", "rebellion"],
+    description: "A unique magic-driven fantasy world."
+  },
+  {
+    title: "The Wheel of Time",
+    author: "Robert Jordan",
+    genre: "Fantasy",
+    keywords: ["epic", "destiny"],
+    description: "A massive epic fantasy saga."
   }
 ];
 
