@@ -136,6 +136,282 @@ const INITIAL_BOOKS: InsertBook[] = [
     genre: "Fantasy",
     keywords: ["magic", "music", "adventure", "legend", "mystery"],
     description: "The tale of a legendary figure recounting his extraordinary life."
+  },
+  {
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    genre: "Fiction",
+    keywords: ["justice", "racism", "morality", "law", "society"],
+    description: "A powerful tale of racial injustice in the American South."
+  },
+  {
+    title: "1984",
+    author: "George Orwell",
+    genre: "Dystopian",
+    keywords: ["totalitarianism", "surveillance", "freedom", "control"],
+    description: "A chilling vision of a controlled and monitored future."
+  },
+  {
+    title: "Animal Farm",
+    author: "George Orwell",
+    genre: "Political Satire",
+    keywords: ["power", "corruption", "revolution", "allegory"],
+    description: "An allegory about power and political manipulation."
+  },
+  {
+    title: "Pride and Prejudice",
+    author: "Jane Austen",
+    genre: "Romance",
+    keywords: ["love", "class", "marriage", "society"],
+    description: "A romantic novel centered on manners and marriage."
+  },
+  {
+    title: "The Catcher in the Rye",
+    author: "J.D. Salinger",
+    genre: "Fiction",
+    keywords: ["teenage angst", "identity", "alienation"],
+    description: "A rebellious teen’s view of society and adulthood."
+  },
+  {
+    title: "The Hobbit",
+    author: "J.R.R. Tolkien",
+    genre: "Fantasy",
+    keywords: ["adventure", "dragons", "quest", "middle earth"],
+    description: "A fantasy adventure leading to unexpected heroism."
+  },
+  {
+    title: "Harry Potter and the Sorcerer’s Stone",
+    author: "J.K. Rowling",
+    genre: "Fantasy",
+    keywords: ["magic", "friendship", "school", "wizard"],
+    description: "A young boy discovers he belongs to the magical world."
+  },
+  {
+    title: "The Lord of the Rings",
+    author: "J.R.R. Tolkien",
+    genre: "Fantasy",
+    keywords: ["epic", "good vs evil", "ring", "quest"],
+    description: "An epic battle between good and evil in Middle-earth."
+  },
+  {
+    title: "The Alchemist",
+    author: "Paulo Coelho",
+    genre: "Philosophical Fiction",
+    keywords: ["dreams", "destiny", "journey", "spirituality"],
+    description: "A journey about following your dreams."
+  },
+
+  {
+    title: "Think and Grow Rich",
+    author: "Napoleon Hill",
+    genre: "Self-Help",
+    keywords: ["success", "mindset", "wealth", "motivation"],
+    description: "Principles for achieving financial and personal success."
+  },
+  {
+    title: "Rich Dad Poor Dad",
+    author: "Robert Kiyosaki",
+    genre: "Finance",
+    keywords: ["money", "investing", "assets", "education"],
+    description: "A comparison of two views on money and wealth."
+  },
+  {
+    title: "Atomic Habits",
+    author: "James Clear",
+    genre: "Self-Help",
+    keywords: ["habits", "discipline", "productivity"],
+    description: "Small habits that lead to big changes."
+  },
+  {
+    title: "Deep Work",
+    author: "Cal Newport",
+    genre: "Productivity",
+    keywords: ["focus", "work", "concentration"],
+    description: "Strategies for focused success in a distracted world."
+  },
+  {
+    title: "The Power of Now",
+    author: "Eckhart Tolle",
+    genre: "Spirituality",
+    keywords: ["mindfulness", "present", "peace"],
+    description: "A guide to living in the present moment."
+  },
+  {
+    title: "The Psychology of Money",
+    author: "Morgan Housel",
+    genre: "Finance",
+    keywords: ["behavior", "money", "wealth"],
+    description: "How psychology influences financial decisions."
+  },
+  {
+    title: "Zero to One",
+    author: "Peter Thiel",
+    genre: "Business",
+    keywords: ["startup", "innovation", "entrepreneurship"],
+    description: "Notes on building unique and valuable startups."
+  },
+  {
+    title: "The Lean Startup",
+    author: "Eric Ries",
+    genre: "Business",
+    keywords: ["startup", "iteration", "growth"],
+    description: "How modern startups can grow efficiently."
+  },
+  {
+    title: "Ikigai",
+    author: "Héctor García",
+    genre: "Self-Help",
+    keywords: ["purpose", "life", "happiness"],
+    description: "Finding meaning and purpose in life."
+  },
+  {
+    title: "Start With Why",
+    author: "Simon Sinek",
+    genre: "Leadership",
+    keywords: ["leadership", "motivation", "vision"],
+    description: "Understanding the importance of purpose."
+  },
+
+  {
+    title: "Sapiens",
+    author: "Yuval Noah Harari",
+    genre: "History",
+    keywords: ["human evolution", "civilization", "culture"],
+    description: "A brief history of humankind."
+  },
+  {
+    title: "Homo Deus",
+    author: "Yuval Noah Harari",
+    genre: "Future Studies",
+    keywords: ["future", "technology", "AI"],
+    description: "Speculation about humanity’s future."
+  },
+  {
+    title: "Guns, Germs, and Steel",
+    author: "Jared Diamond",
+    genre: "History",
+    keywords: ["civilization", "geography", "power"],
+    description: "Factors behind global inequality."
+  },
+  {
+    title: "The Art of War",
+    author: "Sun Tzu",
+    genre: "Strategy",
+    keywords: ["war", "strategy", "leadership"],
+    description: "Ancient strategies for conflict and leadership."
+  },
+  {
+    title: "Meditations",
+    author: "Marcus Aurelius",
+    genre: "Philosophy",
+    keywords: ["stoicism", "self-control", "wisdom"],
+    description: "Personal reflections on discipline and virtue."
+  },
+  {
+    title: "Man’s Search for Meaning",
+    author: "Viktor Frankl",
+    genre: "Psychology",
+    keywords: ["purpose", "suffering", "hope"],
+    description: "Finding meaning even in suffering."
+  },
+  {
+    title: "The Subtle Art of Not Giving a F*ck",
+    author: "Mark Manson",
+    genre: "Self-Help",
+    keywords: ["life", "values", "mindset"],
+    description: "A counterintuitive approach to living well."
+  },
+  {
+    title: "The 7 Habits of Highly Effective People",
+    author: "Stephen Covey",
+    genre: "Self-Help",
+    keywords: ["habits", "success", "leadership"],
+    description: "Timeless principles for effectiveness."
+  },
+  {
+    title: "How to Win Friends and Influence People",
+    author: "Dale Carnegie",
+    genre: "Communication",
+    keywords: ["relationships", "communication", "influence"],
+    description: "Classic advice on human relations."
+  },
+  {
+    title: "The Kite Runner",
+    author: "Khaled Hosseini",
+    genre: "Drama",
+    keywords: ["friendship", "guilt", "redemption"],
+    description: "A story of friendship and redemption."
+  },
+
+  {
+    title: "The Book Thief",
+    author: "Markus Zusak",
+    genre: "Historical Fiction",
+    keywords: ["war", "books", "humanity"],
+    description: "A girl finds solace in books during WWII."
+  },
+  {
+    title: "Life of Pi",
+    author: "Yann Martel",
+    genre: "Adventure",
+    keywords: ["faith", "survival", "sea"],
+    description: "A boy survives at sea with a tiger."
+  },
+  {
+    title: "The Fault in Our Stars",
+    author: "John Green",
+    genre: "Romance",
+    keywords: ["love", "illness", "youth"],
+    description: "A love story of two teenagers with cancer."
+  },
+  {
+    title: "The Hunger Games",
+    author: "Suzanne Collins",
+    genre: "Dystopian",
+    keywords: ["survival", "rebellion", "power"],
+    description: "A deadly competition in a dystopian world."
+  },
+  {
+    title: "Dune",
+    author: "Frank Herbert",
+    genre: "Science Fiction",
+    keywords: ["politics", "desert", "power"],
+    description: "A sci-fi epic of politics and prophecy."
+  },
+  {
+    title: "The Da Vinci Code",
+    author: "Dan Brown",
+    genre: "Thriller",
+    keywords: ["mystery", "symbols", "religion"],
+    description: "A fast-paced mystery involving secret societies."
+  },
+  {
+    title: "Sherlock Holmes: A Study in Scarlet",
+    author: "Arthur Conan Doyle",
+    genre: "Mystery",
+    keywords: ["detective", "logic", "crime"],
+    description: "The first appearance of Sherlock Holmes."
+  },
+  {
+    title: "Dracula",
+    author: "Bram Stoker",
+    genre: "Horror",
+    keywords: ["vampire", "fear", "gothic"],
+    description: "A classic gothic vampire novel."
+  },
+  {
+    title: "Frankenstein",
+    author: "Mary Shelley",
+    genre: "Horror",
+    keywords: ["science", "creation", "ethics"],
+    description: "A scientist creates a monstrous life."
+  },
+  {
+    title: "The Odyssey",
+    author: "Homer",
+    genre: "Epic",
+    keywords: ["journey", "hero", "mythology"],
+    description: "An epic journey back home."
   }
 ];
 
